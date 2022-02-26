@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalkulator walut</title>
+    <div id="kalkulatorWalut"></div>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="container">
+        <p class="body__title">KALKULATOR WALUT</p>
+        <form class="js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Wpisz kwotę i wybierz walutę</legend>
+                <p>
+                    <label>
+                        <span class="form__labelText">pln: </span>
+                        <input class="js-sum" type="number" name="sum" step="0.01" min="1" placeholder="kwota"
+                            autofocus>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__labelText">chcę otrzymać:</span>
+                        <select class="js-currency" name="waluta">
+                            <option value="0.22">EUR-Unia Europejska</option>
+                            <option value="0.25">USD-USA</option>
+                            <option value="0.18">GBP-W.Brytania</option>
+                            <option value="0.23">CHF-Szwajcarja</option>
+                            <option value="0.35">AUD-Australia</option>
+                            <option value="0.43">BGN-Bułgaria</option>
+                            <option value="1.30">BRL-Brazylia</option>
+                            <option value="0.32">CAD-Kanada</option>
+                            <option value="200.32">CLP-Chile</option>
+                            <option value="1.57">CNY-Chińska Rep.Ludowa</option>
+                            <option value="5.37">CZK-Czechy</option>
+                            <option value="1.62">DKK-Dania</option>
+                            <option value="1.93">HKD-Hongkong</option>
+                            <option value="1.65">HRK-Chorwacja</option>
+                            <option value="78.4">HUF-Węgry</option>
+                            <option value="0.81">ILS-Izrael</option>
+                            <option value="18.70">INR-Indie</option>
+                            <option value="31">ISK-Islandia</option>
+                            <option value="28.45">IPY-Japonia</option>
+                            <option value="295.95">KRW-Korea Południowa</option>
+                            <option value="5.08">MXN-Meksyk</option>
+                            <option value="1.04">MYR-Malezja</option>
+                            <option value="2.21">NOK-Norwegia</option>
+                            <option value="0.37">NZD-Nowa Zelandia</option>
+                            <option value="12.71">PHP-Filipiny</option>
+                            <option value="1.08">RON-Rumunia</option>
+                            <option value="19.12">RUB-Rosja</option>
+                            <option value="2.33">SEK-Szwecja</option>
+                            <option value="0.33">SGD-Singapur</option>
+                            <option value="8.05">THB-Tajlandia</option>
+                            <option value="3.35">TRY-Turcja</option>
+                            <option value="7.06">UAH-Ukraina</option>
+                            <option value="0.18">XDR-MFW(SDR)</option>
+                            <option value="3.77">ZAR-Republika płd.Afryki</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <button class="form__button" type="submit">przelicz:</button>
+                </p>
+                <p>Wynik:<strong class="js-result">0.00</strong></p>
+            </fieldset>
+            <img class="form__img" src="https://i.ibb.co/bBcZz3c/menwithmoney.gif" alt="facet z kasą" border="0">
+        </form>
+
+        <footer class="footer">Stworzone przez Monika Kazuła 2022 - wszystkie prawa zastrzeżone</footer>
+</body>
+
+</html>
