@@ -7,3 +7,5 @@ The calculator recalculates PLN ( polish currency) for the other currencies exis
 I've made next project for training-YouCode. This is a currency calculator.This page is in polish language. I put background img and background color.
 This is working by js ```
 
+### demo
+https://github.com/Monikas1989/currency-calculator
