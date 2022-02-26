@@ -8,4 +8,4 @@ I've made next project for training-YouCode. This is a currency calculator.This 
 This is working by js ```
 
 ### demo
-https://github.com/Monikas1989/currency-calculator
+https://monikas1989.github.io/currency-calculator/
