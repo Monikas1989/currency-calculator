@@ -13,8 +13,15 @@ html {
     color: black;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgb(163, 241, 241);
+    background-color: rgb(205, 209, 193);
+    background-image: url("../images/maszyna\ do\ liczenia\ pieniedzy.webp");
+    background-repeat: no-repeat;
+    background-size:400px;
+    background-position: left;
+    
 
+   
+    
 }
 
 .body__title {
@@ -26,6 +33,7 @@ html {
 
 .footer {
 
-    margin: 0 auto;
+    margin:20px;
+    padding: auto;
 
 }
