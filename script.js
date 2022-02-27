@@ -1,7 +1,7 @@
 
 const formElement = document.querySelector(".js-form");
 
-formElement.addEventListener("submit", (event) => {
+const onFormSubmit = (event) => {
     event.preventDefault();
     const sumElement = document.querySelector(".js-sum");
     const currencyElement = document.querySelector(".js-currency");
@@ -15,7 +15,7 @@ formElement.addEventListener("submit", (event) => {
 
 
     resultElement.innerText = result;
-});
+};
 const init = () => {
     formElement.addEventListener("submit", onFormSubmit);
 
