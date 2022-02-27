@@ -10,14 +10,15 @@ formElement.addEventListener("submit", (event) => {
     const sum = sumElement.value;
     const currency = currencyElement.value;
 
-    const result= sum * currency;
+    const result = sum * currency;
+
 
 
     resultElement.innerText = result;
 });
-    const init = () => {
-        formElement.addEventListener("submit", onFormSubmit);
-            
-    };
-    init();
+const init = () => {
+    formElement.addEventListener("submit", onFormSubmit);
+
+};
+init();
 
