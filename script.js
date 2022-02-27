@@ -12,9 +12,8 @@ const onFormSubmit = (event) => {
 
     const result = sum * currency;
 
-
-
     resultElement.innerText = result;
+
 };
 const init = () => {
     formElement.addEventListener("submit", onFormSubmit);
