@@ -10,7 +10,7 @@ const onFormSubmit = (event) => {
     const sum = sumElement.value;
     const currency = currencyElement.value;
 
-    const result = sum * currency;
+    const result= sum * currency;
 
     resultElement.innerText = result;
 
