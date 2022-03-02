@@ -1,4 +1,4 @@
-
+{
 const formElement = document.querySelector(".js-form");
 
 const onFormSubmit = (event) => {
@@ -21,3 +21,4 @@ const init = () => {
 };
 init();
 
+}
