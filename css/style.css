@@ -27,13 +27,17 @@ html {
 .body__title {
     text-align: center;
     font-size: 40px;
-    color: rgb(9, 8, 10);
+    color: rgb(240, 237, 243);
     font-weight: bold;
+    border:20px double antiquewhite ;
+    background-color: black;
 }
 
 .footer {
-
+    max-width:700px;
     margin:0 auto;
     padding: 25px;
+    border:20px solid antiquewhite;
+    background-color: aliceblue;
 
 }
