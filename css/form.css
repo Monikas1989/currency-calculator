@@ -23,7 +23,10 @@
 }
 
 .form__img {
-    padding-left: 150px;
+    margin: 0 auto;
+    padding:25px;
+    max-width:400px;
+    
    
     
 }
